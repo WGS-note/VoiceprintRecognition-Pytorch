@@ -10,15 +10,6 @@
 
 本分支为1.1版本，如果要使用之前的1.0版本请在[1.0分支](https://github.com/yeyupiaoling/VoiceprintRecognition-Pytorch/tree/release/1.0.5)使用。本项目使用了EcapaTdnn、ResNetSE、ERes2Net、CAM++等多种先进的声纹识别模型，不排除以后会支持更多模型，同时本项目也支持了MelSpectrogram、Spectrogram、MFCC、Fbank等多种数据预处理方法，使用了ArcFace Loss，ArcFace loss：Additive Angular Margin Loss（加性角度间隔损失函数），对应项目中的AAMLoss，对特征向量和权重归一化，对θ加上角度间隔m，角度间隔比余弦间隔在对角度的影响更加直接，除此之外，还支持AMLoss、ARMLoss、CELoss等多种损失函数。
 
-**本项目是如果对你有帮助，欢迎Star，避免之后需要找不到了。**
-
-**欢迎大家扫码入知识星球或者QQ群讨论，知识星球里面提供项目的模型文件和博主其他相关项目的模型文件，也包括其他一些资源。**
-
-<div align="center">
-  <img src="https://yeyupiaoling.cn/zsxq.jpg" alt="知识星球" width="400">
-  <img src="https://yeyupiaoling.cn/qq.jpg" alt="QQ群" width="400">
-</div>
-
 使用环境：
 
  - Anaconda 3
